@@ -1,0 +1,16 @@
+body{
+    display: grid;
+    grid-template-rows: repeat(16,22px);
+    grid-template-columns: repeat(16,22px);
+    gap: 1px 1px;
+    background-color: rgb(222, 222, 127);
+}
+div{
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    width: 20px;
+}
+div:hover{
+    background-color: aquamarine;
+    box-shadow: inset;
+}
